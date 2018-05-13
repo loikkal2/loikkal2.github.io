@@ -421,6 +421,12 @@ footer .footer-below {
     /*border:1px solid #006080;*/
 }
 
+.img-responsive:hover{
+    transition: .5s ease;
+    opacity: 0.8;
+}
+
+
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
 }
