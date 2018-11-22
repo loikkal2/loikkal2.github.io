@@ -93,6 +93,14 @@ sub {
 img {
   border: 0;
 }
+
+.span4 .img-left {
+    float: left;
+}
+.span4 .img-right {
+    float: right;
+}
+
 svg:not(:root) {
   overflow: hidden;
 }
@@ -244,6 +252,8 @@ th {
   h3 {
     page-break-after: avoid;
   }
+
+
   .navbar {
     display: none;
   }
@@ -1340,7 +1350,7 @@ mark,
   text-transform: capitalize;
 }
 .text-muted {
-  color: #b4bcc2;
+  color: #5a5e61;
 }
 .text-primary {
   color: #2c3e50;
